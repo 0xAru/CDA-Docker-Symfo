@@ -10,12 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Exécuter une action
-        uses: actions/hello-world-docker-action@v1
-        with:
-          debug: true
-      - name: Add new directory
-        run: mkdir new_directory
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Listing files
+        run: ls -al
       - name: List files
         run: ls -al
     
