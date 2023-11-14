@@ -22,4 +22,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: 0xAru/docker-image-name:latest
+          tags: 0xAru//symfony-ci-cd-11-2023:latest
